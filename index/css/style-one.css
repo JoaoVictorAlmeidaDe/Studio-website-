@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+#container {
+    width: 1100px;
+    /* largura pequena */
+    margin: auto;
+    background: #f8f5f5;
+    border-radius: 40px 40px 20px 20px;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+/* menu principal */
+#menu {
+    background: #ddd;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    gap: 20px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+
+}
+
+#menu a:hover {
+    background: #ffffff;
+    background-color: #ffffff;
+}
+
+/* menu abaixo do titulo */
+h1 {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20.4vh;
+    font-size: 45pt;
+}
+
+.menu-secundario {
+    margin-top: -22vh;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    left: 20px;
+    margin-left: -20px;
+}
+
+.menu-secundario a:hover {
+    background: #ffffff;
+}
+
+.menu-secundario a {
+    text-decoration: none;
+    color: black;
+    background: #e5e5e5;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 9pt;
+    transition: 0.3s;
+}
+
+/* imagens abaixo do menu */
+#imagens-geral {
+    max-width: 1100px;
+    margin: auto;
+    padding: 130px 40px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+
+}
+
+#imagens-geral img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* parte final do site */
+
+h3 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 27pt;
+}
+
+h5 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 21pt;
+    margin-top: -30px;
+    color: black;
+    opacity: 0.5;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    /* Empurrar o texto e a imagem para esquerda e o outro para a direita */
+    align-items: center;
+    /* Alinha tudo verticalmente no meio */
+    margin-top: 140px;
+    padding: 0 5%;
+}
+
+#final {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imagemlogo {
+    width: 30px;
+    height: auto;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-redes p {
+    margin: 0;
+    font-size: 14px;
+}
